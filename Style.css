@@ -1,0 +1,58 @@
+header{
+    font-weight: bolder;
+    color:black;
+    font-size: xx-large;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(231, 18, 18, 0.932);
+}
+#navigate{
+    position: sticky;
+    top: 0%;
+    z-index: index 1;;
+}
+
+.menu{
+    margin: 0;
+    background-color: gray;
+}
+.menu li a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu li{
+    padding: 10px;
+    display: inline-block;
+}
+
+.menu li:hover{
+    background-color: black;
+}
+.menu li:nth-child(2):hover #submenu_1, .menu li:nth-child(3):hover #submenu_2{
+    display: block;
+}
+
+#submenu_1, #submenu_2{
+    position: absolute;
+    top: 45px;
+    width:auto;
+    background-color: whitesmoke;
+    padding: 0%;
+    display: none;
+}
+
+#submenu_1 li,#submenu_2 li{
+    display:block;
+}
+
+#submenu_1 li:hover,#submenu_2 li:hover{
+    background-color: blue;
+}
+
+#submenu_1 li a,#submenu_2 li a{
+          color: steelblue;
+          font-size: 20px;
+}
+
+
